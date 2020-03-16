@@ -1,0 +1,20 @@
+php_value upload_max_filesize 128M  
+php_value post_max_size 128M  
+php_value max_input_time 3600  
+php_value max_execution_time 3600
+
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L]
+
+php_flag opcache.enable Off
+
+
+# Редирект с http на https создан автоматически при заказе бесплатного ssl-сертификата
+#RewriteEngine On
+#RewriteCond %{SERVER_PORT} !^443$
+#RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+# Конец редиректа
+

@@ -1,0 +1,10 @@
+
+		#if ($arg_utc) {
+			#rewrite ^/live/(.*)/(.*)/(.*)\.(.*)$ /rewrite.php?username=$1&password=$2&stream=$3&extension=$4$arg_token;
+		#}	
+
+
+
+
+
+ MV2v3jDDGCfaEgk3
