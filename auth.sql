@@ -1,7 +1,7 @@
 -- phpMyAdmin SQL Dump
 -- version 4.0.10deb1
 -- http://www.phpmyadmin.net
---
+---
 -- Host: localhost
 -- Generation Time: Jan 16, 2016 at 01:54 PM
 -- Server version: 5.5.43-0ubuntu0.14.04.1
@@ -16,7 +16,7 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8 */;
 
---
+--ff
 -- Database: `ci_auth`
 --
 
